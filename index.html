@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HumbleHack - API Combination Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    
+    <header>
+        <nav class="container">
+            
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#problem">Challenge</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#apis">APIs</a></li>
+                <li><a href="#requirements">Requirements</a></li>
+                <li><a href="#judging">Judging</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="logo-section">
+                <img src="logo.png" alt="Humble Coders x LPU" class="logo" id="logo">
+
+            </div>
+                <h1 class="hero-title">HumbleHack 2025</h1>
+                <p class="hero-subtitle">API Combination Challenge</p>
+                <p class="hero-description">Build innovative Android apps by creatively combining multiple public APIs</p>
+                <a href="#overview" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="overview" class="section overview-section">
+        <div class="container">
+            <h2 class="section-title">🧩 Overview</h2>
+            <div class="content-card">
+                <p>You've just learned how to use APIs in Android apps — now it's time to put that skill to the test!</p>
+                <p>In this hackathon, your challenge is to build an Android app that creatively combines data from <strong>at least two different public APIs</strong> to make something useful, fun, or innovative.</p>
+                <p>Your goal is to take real data from the web, merge it in a smart way, and turn it into a functional app with a clean, user-friendly UI.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem" class="section problem-section">
+        <div class="container">
+            <h2 class="section-title">💡 Problem Statement</h2>
+            <div class="content-card highlight-card">
+                <p class="problem-text">Build an Android app that uses <strong>at least two different APIs</strong> and combines their data in a creative way.</p>
+                <p>Your app should meaningfully integrate and display data fetched from both APIs, showing your understanding of API calls, data parsing, and user interface design.</p>
+                <p>You are free to choose any APIs that are publicly available and free to use.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="examples" class="section examples-section">
+        <div class="container">
+            <h2 class="section-title">🧠 Examples</h2>
+            <p class="section-description">To spark your creativity, here are some example ideas (but you are not limited to these!):</p>
+            <div class="examples-grid">
+                <div class="example-card">
+                    <div class="example-icon">🌍</div>
+                    <h3>Travel Planner App</h3>
+                    <p>Combines Maps API + Weather API + Currency Exchange API</p>
+                </div>
+                <div class="example-card">
+                    <div class="example-icon">🎬</div>
+                    <h3>Movie Night App</h3>
+                    <p>Uses Movie Database API + YouTube Trailer API</p>
+                </div>
+                <div class="example-card">
+                    <div class="example-icon">💪</div>
+                    <h3>Fitness Motivation App</h3>
+                    <p>Uses Exercise API + Quotes API</p>
+                </div>
+                <div class="example-card">
+                    <div class="example-icon">🏫</div>
+                    <h3>Study Abroad Helper</h3>
+                    <p>Combines Universities API + Country Info API</p>
+                </div>
+                <div class="example-card">
+                    <div class="example-icon">🐶</div>
+                    <h3>Pet Explorer</h3>
+                    <p>Combines Animal Facts API + Location API for nearby shelters</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apis" class="section apis-section">
+        <div class="container">
+            <h2 class="section-title">🧰 Suggested Free APIs</h2>
+            <p class="section-description">You can pick any APIs of your choice, but here are some you can start with:</p>
+            <div class="api-grid">
+                <div class="api-card">
+                    <h3>Open-Meteo API</h3>
+                    <p>Free weather forecasts without sign-up</p>
+                </div>
+                <div class="api-card">
+                    <h3>ExchangeRate API</h3>
+                    <p>Live currency exchange rates</p>
+                </div>
+                <div class="api-card">
+                    <h3>REST Countries API</h3>
+                    <p>Country, population, currency, language info</p>
+                </div>
+                <div class="api-card">
+                    <h3>Universities API (Hipolabs)</h3>
+                    <p>List of universities by country</p>
+                </div>
+                <div class="api-card">
+                    <h3>Open Food Facts API</h3>
+                    <p>Global nutritional and product data</p>
+                </div>
+                <div class="api-card">
+                    <h3>The Movie Database (TMDb)</h3>
+                    <p>Movies, series, actors, ratings</p>
+                </div>
+                <div class="api-card">
+                    <h3>Bored API</h3>
+                    <p>Suggests random activities</p>
+                </div>
+                <div class="api-card">
+                    <h3>Dog CEO API</h3>
+                    <p>Dog breed images and info</p>
+                </div>
+                <div class="api-card">
+                    <h3>JSONPlaceholder</h3>
+                    <p>Fake API for testing data structures</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="requirements" class="section requirements-section">
+        <div class="container">
+            <h2 class="section-title">🧾 Requirements</h2>
+            <div class="requirements-list">
+                <div class="requirement-card">
+                    <div class="requirement-number">1</div>
+                    <div class="requirement-content">
+                        <h3>API Integration</h3>
+                        <p>The app must use at least two APIs and combine their data in some meaningful way</p>
+                    </div>
+                </div>
+                <div class="requirement-card">
+                    <div class="requirement-number">2</div>
+                    <div class="requirement-content">
+                        <h3>User Interface</h3>
+                        <p>The app should have a working user interface built with Android (Jetpack Compose or XML)</p>
+                    </div>
+                </div>
+                <div class="requirement-card">
+                    <div class="requirement-number">3</div>
+                    <div class="requirement-content">
+                        <h3>Error Handling</h3>
+                        <p>The app should handle network calls, loading states, and errors gracefully</p>
+                    </div>
+                </div>
+                <div class="requirement-card">
+                    <div class="requirement-number">4</div>
+                    <div class="requirement-content">
+                        <h3>Live Presentation</h3>
+                        <p>The project must be developed within the hackathon duration and presented live</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="judging" class="section judging-section">
+        <div class="container">
+            <h2 class="section-title">🏆 Judging Criteria</h2>
+            <div class="judging-grid">
+                <div class="judging-card">
+                    <h3>Creativity & Idea</h3>
+                    <p>How unique and impactful is your app concept?</p>
+                </div>
+                <div class="judging-card">
+                    <h3>API Integration</h3>
+                    <p>Proper use and combination of multiple APIs</p>
+                </div>
+                <div class="judging-card">
+                    <h3>Data Handling</h3>
+                    <p>Smooth fetching, parsing, and displaying of data</p>
+                </div>
+                <div class="judging-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Visual appeal, clarity, and ease of use</p>
+                </div>
+                <div class="judging-card">
+                    <h3>Real-World Usefulness</h3>
+                    <p>How practical or engaging the app is</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HumbleHack - Humble Coders x LPU. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
